@@ -13,3 +13,29 @@ body{
     padding: 5px 30px;
     border-left: 2px solid red;
 }
+
+.main-aside{
+   text-align: center;
+}
+
+.main-aside ul{
+   list-style: none;
+   padding: 0;
+}
+
+.main-aside h2{
+   color:  rgba(255, 255, 255, 0.6);
+}
+
+.main-aside ul a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.main-aside ul a:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+.main-aside ul a:visited{
+    color: rgb(0, 255, 255, 0.5);
+}
