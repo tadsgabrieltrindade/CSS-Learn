@@ -6,6 +6,8 @@ body {
   background-color: rgb(24, 24, 24);
   color: rgba(0, 0, 255, 0.5);
   font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -78,4 +80,33 @@ body {
 .container.main-form button:hover {
   background-color: rgb(255, 255, 255, 1);
   color: #000;
+}
+
+
+/*Barra de navegação ---------------*/
+
+.nav_container{
+    text-align: center;
+    background-color: rgb(116, 24, 24);
+    color: #FFF;
+    padding: 0.5%;
+    position: sticky;
+    top: 0;
+}
+
+
+/*Subir scroll*/
+.subir{
+    padding: 0.5%;
+    background-color:rgb(116, 24, 24) ;
+    color: #FFF;
+    font-size: 80%;
+    position: sticky;
+    left: 95%;
+    bottom: 3%;
+    
+}
+
+.subir a{
+    text-decoration: none;
 }
