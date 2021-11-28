@@ -1,0 +1,13 @@
+body{
+    color: rgba(0, 0, 255, 0.5);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    background-color: #333;
+    color: #eee;
+    width: 75%;
+    margin:  0 auto 5%;
+    padding: 2%;
+    border: 2px solid blue;
+}
