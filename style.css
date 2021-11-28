@@ -8,7 +8,8 @@ body{
     background-color: #333;
     color: #eee;
     width: 75%;
+    box-sizing: border-box; /*Utilizamos pq o padding influencia no width*/
     margin:  2% auto;
-    padding: 1% 5%;
+    padding: 5px 30px;
     border-left: 2px solid red;
 }
